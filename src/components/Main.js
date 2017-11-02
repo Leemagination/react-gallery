@@ -255,7 +255,7 @@ class AppComponent extends React.Component {
 
       this.Constant.centerPos = {
           left: halfStageW - halfImgW,
-          top: halfStageH - imgH
+          top: halfStageH - halfImgH
       };
 
       this.Constant.xPosRange.leftSecX[0] = -halfImgW;
